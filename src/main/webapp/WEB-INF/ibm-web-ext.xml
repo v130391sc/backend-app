@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-ext version="1.0"
+	xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-web-ext_1_0.xsd"
+	xmlns="http://websphere.ibm.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<jsp-attribute value="true" name="reloadEnabled" />
+	<jsp-attribute value="10" name="reloadInterval" />
+	<reload-interval value="3" />
+	<context-root uri="catering-app"/>
+	<enable-directory-browsing value="true" />
+	<enable-file-serving value="true" /> <!-- TRUE EN LOCAL. PONER A FALSE AL PASAR A DESARROLLO, INTE Y PROD -->
+	<enable-reloading value="true" />
+	<enable-serving-servlets-by-class-name value="false" />
+</web-ext>
